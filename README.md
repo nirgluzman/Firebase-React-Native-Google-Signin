@@ -8,6 +8,7 @@
 
 - https://codewithbeto.dev
 - https://github.com/betomoedano
+- https://codewithbeto.dev/projects/animated-splash-screen
 
 ### Start a new React Native project with Expo
 
@@ -17,3 +18,20 @@
 ```bash
 npx create-expo-app <project name> --template blank
 ```
+
+### Lottie Files - Free React Native Animations
+
+https://lottiefiles.com/free-animations/react-native
+https://github.com/lottie-react-native/lottie-react-native
+
+- Install
+
+```bash
+yarn add lottie-react-native
+```
+
+### React Native Reanimated
+
+https://docs.swmansion.com/react-native-reanimated/
+
+- Library to create smooth animations and interactions.
