@@ -36,5 +36,6 @@ yarn add lottie-react-native
 ### React Native Reanimated
 
 https://docs.swmansion.com/react-native-reanimated/
+https://docs.expo.dev/versions/latest/sdk/reanimated/
 
 - Library to create smooth animations and interactions.
