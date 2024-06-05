@@ -1,8 +1,8 @@
-## React Native - Splash Animation
+## React Native - Lottie Animation
 
 ### GitHub repo
 
-- https://github.com/nirgluzman/React-Native-Splash-Animation.git
+- https://github.com/nirgluzman/React-Native-Lottie-Animation.git
 
 ### Resources
 
