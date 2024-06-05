@@ -1,16 +1,16 @@
 import { StyleSheet, View } from 'react-native';
 import LottieView from 'lottie-react-native';
 
-export default function Splash() {
+export default function Splash({ onLoading }) {
   return (
     <View style={styles.container}>
       <LottieView
+        style={styles.animationContainer}
         source={require('../assets/confetti.json')}
         autoPlay // auto play whenever the component is rendered.
-        loop={true} // loop forever.
+        loop={false} // true = loop forever.
         resizeMode='cover' // cover the whole screen.
-        //onAnimationFinish={ }
-        style={styles.animationContainer}
+        onAnimationFinish={() => onLoading(false)}
       />
     </View>
   );

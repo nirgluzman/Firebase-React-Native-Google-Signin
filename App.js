@@ -1,13 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
-import { Text, View } from 'react-native';
+import { useState } from 'react';
 
-import Splash from './screens/Splash.js';
+import { StatusBar } from 'expo-status-bar';
+import { View } from 'react-native';
+
+import Splash from './screens/Splash';
+import Home from './screens/Home';
 
 export default function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
-    <View style={{ flex: 1 }}>
+    <>
       <StatusBar style='auto' />
-      <Splash />
-    </View>
+      {/* Home component to be rendered once the animation is com pleted */}
+      {isLoading ? <Splash onLoading={setIsLoading} /> : <Home />}
+    </>
   );
 }
