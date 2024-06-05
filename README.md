@@ -10,6 +10,8 @@
 - https://github.com/betomoedano
 - https://codewithbeto.dev/projects/animated-splash-screen
 
+- Lottie files: https://lottiefiles.com/featured
+
 ### Start a new React Native project with Expo
 
 - https://reactnative.dev/docs/environment-setup
@@ -23,6 +25,7 @@ npx create-expo-app <project name> --template blank
 
 https://lottiefiles.com/free-animations/react-native
 https://github.com/lottie-react-native/lottie-react-native
+https://docs.expo.dev/versions/latest/sdk/lottie/
 
 - Install
 
