@@ -3,22 +3,22 @@
 export const animations = [
   {
     name: 'Bubbles',
-    path: '../assets/bubbles.json'
+    src: require('../assets/bubbles.json')
   },
   {
     name: 'Loading Spinner',
-    path: '../assets/loading.json'
+    src: require('../assets/loading.json')
   },
   {
     name: 'Confetti',
-    path: '../assets/confetti.json'
+    src: require('../assets/confetti.json')
   },
   {
     name: 'Processing',
-    path: '../assets/processing.json'
+    src: require('../assets/processing.json')
   },
   {
     name: 'Cheering Animation',
-    path: '../assets/cheeringAnimation.json'
+    src: require('../assets/cheeringAnimation.json')
   }
 ];
