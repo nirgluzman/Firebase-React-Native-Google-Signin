@@ -6,7 +6,7 @@ export default function Splash({ onLoading }) {
     <View style={styles.container}>
       <LottieView
         style={styles.animationContainer}
-        source={require('../assets/confetti.json')}
+        source={require('../assets/preetisarnSamarnrak.json')}
         autoPlay // auto play whenever the component is rendered.
         loop={false} // true = loop forever.
         resizeMode='cover' // cover the whole screen.
